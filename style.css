@@ -1,0 +1,36 @@
+*{
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
+body{
+    background-color: #eee;
+}
+.container{
+   width: fit-content;
+   height: fit-content;
+   padding: 10px;
+   margin: 20px auto;
+   border-radius: 15px;
+   background-color: white;
+
+}
+img{
+    border-radius: 15px;
+    width: 227px;
+    height: 216px;
+    transform: translatey(2px);
+}
+
+h3{
+    transform: translate(6px, -3px);
+   width: 215px;
+   text-align: center;
+
+}
+p{
+    width: 222px;
+    transform: translate(6px, -4px);
+    text-align: center;
+    opacity: 0.5;
+}
